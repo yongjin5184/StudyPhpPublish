@@ -1,0 +1,33 @@
+1. h1~h6: 목차(헤딩태그) 크기 h1 > h2 >...> h6
+2. strong (강)강조 ,  #em (약)강조, 이탤릭
+3. ul 순번 없음 #ol 순번 있음(1등, 2등 랭킹), ex) 네이버 실시간 랭킹.
+	=> 둘 다 li 만 들어간다.
+4. dl, dt, dd ex) 네이버 사전 
+	dl
+	  dt 이름
+	  	dd 정의
+	=> dl 안엔 dt랑 dd만
+5. div 구역을 나누기 위한 요소 (의미는 없음)
+	html5 - section, article, nav, header, footer, address
+6. span 스타일을 꾸미기 위한 요소 (의미는 없음)
+7. br 줄내림
+8. input #type: html5 - number, range, tel
+				text, checkbox, reset, password..
+
+9. table, thead
+		  tfoot (순서)
+		  tbody
+
+	 caption
+		colgroup
+			col
+
+10. a  #html5에서만 하위 block 요소를 감싼다. 
+	(엄밀히 따지면 하위 브라우저에서 a 태그는 
+	하위 block 요소를 감싸지 못하므로 링크 이동이 안 먹힐 수 있음.)
+
+11. img  #ilne 요소
+12. inline_block은 css에서만 사용됨, 하위에서 안먹음,
+					inline-block을 하더라도 두 element 사이에 3 ~ 5 px 공간이 떨어짐.
+13. p 문단
+14. sub ex)H20에서 작은 2  #sup www[1] 각주 1
